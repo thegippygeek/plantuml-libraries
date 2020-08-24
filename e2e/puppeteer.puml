@@ -67,9 +67,9 @@ sprite $pupeteer64x64 [64x64/16] {
 }
 
 
-!define PUPPETEER(_alias) ENTITY(rectangle,black,docker,_alias,PUPPETEER)
-!define PUPPETEER(_alias, _label) ENTITY(rectangle,black,docker,_label, _alias,PUPPETEER)
-!define PUPPETEER(_alias, _label, _shape) ENTITY(_shape,black,docker,_label, _alias,PUPPETEER)
-!define PUPPETEER(_alias, _label, _shape, _color) ENTITY(_shape,_color,docker,_label, _alias,PUPPETEER)
+!define PUPPETEER(_alias) ENTITY(rectangle,black,pupeteer64x64,_alias,PUPPETEER)
+!define PUPPETEER(_alias, _label) ENTITY(rectangle,black,pupeteer64x64,_label, _alias,PUPPETEER)
+!define PUPPETEER(_alias, _label, _shape) ENTITY(_shape,black,pupeteer64x64,_label, _alias,PUPPETEER)
+!define PUPPETEER(_alias, _label, _shape, _color) ENTITY(_shape,_color,pupeteer64x64,_label, _alias,PUPPETEER)
 skinparam folderBackgroundColor<<PUPPETEER>> White
 @enduml
